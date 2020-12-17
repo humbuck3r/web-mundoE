@@ -1,0 +1,52 @@
+.slider-items{
+        margin-top: 250px;
+        margin-left: 100px;
+        color: white;
+        position: absolute;
+        }
+
+.inicio{
+    background-image: url("../images/slider-1.png");
+    background-size: cover;
+    height: 800px;
+    width: 100%;   
+}
+
+.slider-item a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: #E0752F;
+    border-radius: 20px;
+    font-size: 1.6rem;
+    padding: 15px ;
+}
+
+.slider-item h2{
+    font-size: 2.0rem;
+    text-align: left;
+    font: normal normal 600 48px/48px poppins;
+    letter-spacing: 0.67px;
+    color: #FFFFFF;
+    opacity: 1;
+
+
+}
+.slider-item p{
+    
+    font-size: 1.3rem;
+    text-align: left;
+    font: normal normal medium 16px/21px Roboto;
+    letter-spacing: 0.22px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.slider-nav li{
+    margin-top: 15px;
+    color: #E0752F;
+    padding: 5px;
+    display: inline-block;
+    
+}
+

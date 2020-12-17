@@ -1,0 +1,38 @@
+.header {
+    height: 96px;
+    border-bottom: 1px solid orange;
+    
+    position: fixed;
+    width: 100%;
+}
+.logo{
+    float: left;
+    margin-top: 30px;
+    
+}
+
+nav {
+    
+    display: flex;
+    height: 60px;
+    position: relative;
+    left: 700px;
+    top: 25px;
+    font-family: roboto;
+    
+    
+    
+    }
+    
+.nav-bar li{
+    padding: 15px;
+    display: inline;
+    text-decoration: none;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    
+} 

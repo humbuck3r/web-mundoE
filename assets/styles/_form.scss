@@ -1,0 +1,67 @@
+.form {
+  top: 3271px;
+  padding-left: 50px;
+  padding-top: 80px;
+  width: 450px;
+  height: 345px;
+  opacity: 1;
+}
+
+.contact {
+  background: -webkit-gradient(linear, left top, right top, color-stop(75%, #F2F4F1), color-stop(25%, #DCE1DA));
+  background: linear-gradient(90deg, #F2F4F1 75%, #DCE1DA 25%);
+  padding-top: 100px;
+  padding-bottom: 90px;
+  width: 100%px;
+  height: 768px;
+  position: relative;
+}
+
+.form input,textarea{
+  width: 100%;
+}
+
+.form h3 > span {
+  color: #E0752F;
+  font-family: poppins;
+}
+
+.form h3 {
+  text-align: left;
+  font-size: 39px;
+  letter-spacing: 0.55px;
+  opacity: 1;
+  font-family: 600 poppins;
+  
+}
+
+.contact img {
+  bottom: 250px;
+  margin-left: 700px;
+  height: 400px;
+  width: 594px;
+  position: relative;
+  
+}
+
+.form a {
+  position: absolute;
+    top: 700px;
+    padding-top: 10px;
+   
+    border-radius: 60px;
+    width: 125px;
+    height: 30px;
+    background: #E0752F;
+    color: white;
+    opacity: 1;
+    text-align: center;
+}
+.form label{
+  font-family: roboto;
+}
+
+
+
+
+/*# sourceMappingURL=form.css.map */

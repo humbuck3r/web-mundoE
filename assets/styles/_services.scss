@@ -1,0 +1,62 @@
+.services_section{
+    background-image: url(../images/section4-image.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 0px;
+    width: auto;
+    height: 800px;
+}
+
+.accordion {
+  max-width: 600px;
+  border-radius: 5px;
+  background:#F8F8F8;
+  margin-left: 350px;
+  position: relative;
+  top: 150px;  
+}
+
+.accordion__label,
+.accordion__content {
+  padding: 14px;
+  
+}
+
+.accordion__label {
+  display: block;
+  color: black;
+  cursor: pointer;
+  
+  font-family: roboto;
+  
+}
+
+
+
+.accordion__label::after {
+  
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  width: 12px;
+  height: 6px;
+  background-size: contain;
+  transition: transform 0.4s;
+}
+
+.accordion__content {
+  background: #ffffff;
+  line-height: 1.6;
+  font-size: 0.85em;
+  display: none;
+}
+
+.accordion__input {
+  display: none;
+}
+
+.accordion__input:checked ~ .accordion__content {
+  display: block;
+}
+
+
